@@ -1,0 +1,436 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1920px)
+  body
+    width: 100%
+
+  .project__box-img
+    width: 350px
+    height: 258px
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1500px)
+  .main__slider-box:after
+    bottom: -6px
+
+  .advantages:before
+    width: 620px
+    top: -17px
+
+  .advantages:after
+    top: 150px
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 1420px)
+  .slider-title
+    margin: 100px auto 35px
+    font-size: 50px
+
+  .main__slider-box .container h3
+    font-size: 44px
+
+  .about__text .title:before
+    right: -30%
+
+  .project__box-img
+    width: 322px
+    height: 235px
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 1300px)
+  .main__slider-box:after
+    bottom: -10px
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 1200px)
+  .advantages:before
+    width: 500px
+    top: -20px
+
+  .main__slider-box .container .btn-accent
+    margin: 70px auto 0
+
+  .container
+    width: 100%
+
+  header .container
+    width: 100%
+
+  .slick-arrow
+    width: 70px
+    height: 70px
+
+  .advantages-box:last-child
+    width: 700px
+
+  .modal__auto
+    width: 100%
+    .modal__wrapper
+      .auto__wrapper
+        justify-content: space-around
+        .auto__box
+          margin: 0 0 19px
+          width: 262px
+
+  .overall-carriage__box
+    margin: 0 0 40px
+    h4
+      font-size: 16px
+
+  .overall-carriage__box-max.overall-carriage__box
+    width: 225px
+
+  .overall-carriage__content
+    justify-content: space-around
+
+  .about
+    flex-direction: column
+
+  .about__image
+    width: 100%
+    order: 1
+    margin: 20px auto 50px
+    min-height: auto
+    img
+      height: auto
+      width: 100%
+      max-width: 100%
+
+  .about__text
+    width: 100%
+    padding: 0 15px
+    .about__text-description
+      max-width: none
+
+  .section-cost.section-cost-two .container .title
+    margin: 63px 0 48px
+
+@media only screen and (max-width : 1120px)
+  .advantages-box
+    width: 49%
+    &:last-child
+      width: 49%
+      h5
+        max-width: none
+
+  .services__content
+    justify-content: space-around
+
+  .car-park__content
+    justify-content: space-around
+
+@media only screen and (max-width : 1080px)
+  .form
+    label, button
+      width: 48%
+
+  .callback__form
+    padding: 0 0 0 40px
+    .form button
+      width: 100%
+
+
+@media only screen and (max-width : 992px)
+  .slider-title
+    font-size: 40px
+    margin: 50px auto 20px
+
+  .main__slider-box .container h3
+    font-size: 30px
+
+  .main__slider-box:after
+    bottom: -15px
+
+  .advantages:after
+    right: -39%
+    top: 140px
+
+  .car-park__description
+    padding: 0
+
+  .callback
+    flex-direction: column
+
+  .callback__image
+    width: 100%
+    order: 1
+    min-height: auto
+    img
+      width: 100%
+      height: auto
+      max-width: 100%
+
+
+  .callback__form
+    width: 100%
+    padding: 0 15px
+    .title
+      max-width: none
+      h2
+        margin: 0
+    .form
+      margin: 0 auto
+
+@media only screen and (max-width : 920px)
+  .footer__top
+    .container
+      .contacts
+        margin: 29px auto 0
+        .phone
+          text-align: center
+
+@media only screen and (max-width : 850px)
+  .company-description
+    max-width: 230px
+
+  .slider-title
+    font-size: 30px
+    margin: 73px auto 14px
+
+  .main__slider-box .container h3
+    font-size: 24px
+
+  .main__slider .slick-dots
+    bottom: 20px
+
+  .advantages:before
+    width: 400px
+
+  .advantages-box
+    width: 100%
+    padding: 0 0 11px 55px
+    &:last-child
+      width: 100%
+
+  .title
+    h2
+      font-size: 48px
+    p, span
+      font-size: 30px
+
+  .form
+    label, button
+      width: 100%
+      input
+        height: 41px
+        font-size: 16px
+    label
+      margin: 0 0 8px
+    button
+      margin: 16px auto 18px
+      .text
+        padding: 0 10px
+        font-size: 17px
+        display: flex
+        align-items: center
+        justify-content: center
+        width: 100%
+
+  select
+    height: 41px
+
+  .section-cost .container .title
+    margin: 52px 0 49px
+
+  .section-cost:before
+    width: 600px
+    height: 34px
+    top: -32px
+
+  .services:before
+    width: 600px
+    height: 34px
+    top: -2px
+
+  .project .container .title
+    margin: 50px 0 29px
+
+@media only screen and (max-width : 768px)
+  .company-description
+    width: 100%
+    order: 1
+    max-width: none
+    margin: 10px auto 0
+    .icon
+      display: none
+
+  .main__slider-box
+    height: 520px
+    .img-slide
+      height: 100%
+      max-width: none
+      width: auto
+    .container
+      top: 150px
+
+  .services__box
+    width: 292px
+    height: 255px
+    margin: 0 0 20px 0
+    .services__box-title
+      font-size: 14px
+      height: 71px
+      padding: 0 37px 0 20px
+
+  .services
+    .title
+      h2
+        font-size: 40px
+      p, span
+        font-size: 20px
+
+  .subtitle
+    font-size: 28px
+
+  .car-park__description
+    p
+      font-size: 18px
+      margin: 0 0 18px 0
+
+  .car-park__content
+    margin: 26px 0 0 0
+
+  .overall-carriage
+    .container
+      .title
+        margin: 90px 0 21px
+        h2
+          font-size: 36px
+
+  .footer__top
+    padding: 16px 0 24px
+    .container
+      flex-direction: column
+      .logo
+        margin: 0 auto 13px
+
+
+@media only screen and (max-width : 650px)
+  .main__slider
+    .slick-arrow, .slick-dots
+      display: none
+
+  .advantages:before
+    width: 300px
+    top: -25px
+
+  .advantages:after
+    right: -70%
+    top: 155px
+
+  .title span
+    display: block
+    margin: 0
+
+  .section-cost:before
+    left: -40%
+
+  .services:before
+    right: -40%
+
+  .about__text .title:before
+    right: -50%
+
+  .about__text-description p
+    margin: 0 0 30px
+
+  .footer__bottom
+    padding: 16px 0
+    .container
+      flex-direction: column
+      align-items: center
+
+  .copyright
+    margin: 12px auto
+
+@media only screen and (max-width : 540px)
+  header
+    border-bottom: 1px solid rgba(#fff, .5)
+    .container
+      flex-direction: column
+      align-items: center
+      padding: 7px 15px
+      .contacts
+        flex-direction: row
+        align-items: center
+        justify-content: center
+        width: 100%
+        margin: 7px 0 10px
+        display: flex
+        .btn-accent
+          width: auto
+          margin: 0 0 0 16px
+          .text
+            display: none
+        .info
+          display: none
+
+  .company-description
+    margin: 0 auto
+
+  .main__slider-box:after
+    bottom: -20px
+
+  .advantages:after
+    width: 600px
+
+  .section-cost.section-cost-two
+    padding: 0 0 59px
+
+  .project .container .title
+    p
+      font-size: 28px
+
+  .slider-nav .slick-dots
+    margin: 0 60px
+
+@media only screen and (max-width : 480px)
+  .main__slider-box .container .btn-accent
+    width: 100%
+    .text
+      padding: 0 20px
+      text-align: center
+      display: flex
+      align-items: center
+      justify-content: center
+      width: 100%
+
+  .advantages:before
+    width: 250px
+
+  .modal__div
+    width: 100%
+    .modal__wrapper
+      padding: 25px 30px 33px
+
+  .advantages:after
+    width: 500px
+
+  .section-cost:before
+    left: -80%
+
+  .services:before
+    right: -80%
+
+  .about__text
+    .title
+      h2
+        font-size: 44px
+      &:before
+        right: -80%
+        width: 450px
+
+  .callback__form .form
+    width: 100%
+
+  .callback__form .title
+    p
+      font-size: 24px
+
+//@media only screen and (max-width : 992px)
